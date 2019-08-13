@@ -8,6 +8,7 @@ public class Main {
         System.out.println("HI");
         System.out.println("HI");
         System.out.println("HI");
-        System.out.println("H I");
+        System.out.println("HI");
+        System.out.println("grgrgrgrggr");
     }
 }
