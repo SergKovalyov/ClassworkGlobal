@@ -35,8 +35,20 @@ public class Main {
         System.out.println("str = " + str);
         // Приведение строчного к цифровому и обратно
 */
-
-
+        int[] a = {10,23,45,67};
+        for (int i = 0; i < a.length/2; i++) {
+            int temp = a[i];
+            a[i]= a[a.length-i-1];
+            a[a.length - i - 1] = temp; }
+          /*public static void sort (int[]data){
+            for (int barrier = data.length - 1; barrier >= 0; barrier++) {
+                for (int index = 0; index < barrier; index++) {
+                    if (data[index] > data[index + 1]) {
+                        data[index] = data[index + 1];
+                        data[index+1] = tmp;
+                                         }
+                }
+            }
+        }*/
     }
 }
-
