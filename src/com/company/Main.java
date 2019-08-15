@@ -34,12 +34,20 @@ public class Main {
         str = "num " + 342;
         System.out.println("str = " + str);
         // Приведение строчного к цифровому и обратно
+*//*
+        int[] a = {10,23,45,67,34};
+       for (int i = 0; i < a.length/2; i++) {
+           int temp = a[i];
+           a[i] = a[a.length - i - 1];
+           a[a.length - i - 1] = temp;
+       }
+        System.out.println(a[1]);*/
+       /* for (int i = a.length-1; i >=0 ; i--) {
+            System.out.println("i = " + a[i]);
+            System.out.println("a[0] = " + a[0]);
+
+        }
 */
-        int[] a = {10,23,45,67};
-        for (int i = 0; i < a.length/2; i++) {
-            int temp = a[i];
-            a[i]= a[a.length-i-1];
-            a[a.length - i - 1] = temp; }
           /*public static void sort (int[]data){
             for (int barrier = data.length - 1; barrier >= 0; barrier++) {
                 for (int index = 0; index < barrier; index++) {
@@ -50,5 +58,14 @@ public class Main {
                 }
             }
         }*/
+        int[] a = {2, 3, 4, 5, 6, 7,8};
+        for (int i = 0; i < a.length; i++) {
+            System.out.println(a[0]);
+            int temp = a[i];
+            a[i] = a[a.length - i - 1];
+            a[a.length - i - 1] = temp;
+            System.out.println(a[0]);
+            break;
+        }
     }
 }
