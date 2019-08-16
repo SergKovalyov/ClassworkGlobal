@@ -48,24 +48,53 @@ public class Main {
 
         }
 */
-          /*public static void sort (int[]data){
-            for (int barrier = data.length - 1; barrier >= 0; barrier++) {
-                for (int index = 0; index < barrier; index++) {
+
+
+//
+//        int[] a = {2, 3, 4, 5, 6, 7, 8};
+//        reverse(a);
+//    }
+//
+//    private static void reverse(int[] a) {
+//        for (int i = 0; i < a.length; i++) {
+//            System.out.println(a[0]);
+//            int temp = a[i];
+//            a[i] = a[a.length - i - 1];
+//            a[a.length - i - 1] = temp;
+//            System.out.println(a[0]);
+//            break;
+//        }
+        //public static void sort (int[]data){
+        /*int[] data = {23, 1, 99, 4};
+            for (int barrier = data.length - 1; barrier >= 0; barrier--) {
+
+                for (int index = 0; index <barrier; index++) {
                     if (data[index] > data[index + 1]) {
+                        int tmp = data[index];
                         data[index] = data[index + 1];
-                        data[index+1] = tmp;
-                                         }
+                        data[index + 1] = tmp;
+                    }
                 }
+
             }
-        }*/
-        int[] a = {2, 3, 4, 5, 6, 7,8};
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[0]);
-            int temp = a[i];
-            a[i] = a[a.length - i - 1];
-            a[a.length - i - 1] = temp;
-            System.out.println(a[0]);
-            break;
+        //System.out.println("data = " + data[barrier]);
+        System.out.println(data[0]);
+        System.out.println(data[1]);
+        System.out.println(data[2]);
+        System.out.println(data[3]);*/
+
+       /* int[] c = {11, 34, 56, 78, 89};
+        for (int i = 0; i <c.length/2 ; i++) {
+            int temp = c[i];
+            c[i]= c[c.length-i-1];
+            c[c.length-i-1]=temp;
+            System.out.println(c[0]);
+            break;*/
+
+        int[] a = {2, 45, 9, 1};
+        for (int breack = a.length-1; breack < ; breack++) {
+
+        }
         }
     }
-}
+
