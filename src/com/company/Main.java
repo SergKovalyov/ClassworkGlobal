@@ -3,6 +3,52 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+        char ch1, ch2;
+        ch1 = 'x';
+        ch2 = 88;
+        //System.out.println("ch2 = " + ch2);
+        /*System.out.println("ch1 = " + ch1);
+        ch1++;
+        System.out.println("ch1 = " + ch1);
+        System.out.println("This is the  \n line with \n break"+"\n"+ ch2);*/
+        //System.out.println("4/2="+4/2 == "4/2=2" );
+
+        /*int mousQ = 0;//
+        int catWeight = 4500;//kg
+        if (mousQ > 0 && catWeight / mousQ < 1000) {
+            System.out.println("You can gat a cat");
+        }
+        else {
+            System.out.println("You Don't");
+        }*/
+
+        /*int a = -5;
+        //int b = a < 0 ? a+35 : a +10;
+        //System.out.println("b = " + b);
+        if (a < 0){
+            a += 35;
+        } else a += 10;
+        System.out.println("a = " + a);
+*/
+        //int definedBonus;
+       /* int purchaseItem = 4;
+        int bonus;
+        bonus = purchaseItem > 3 ? 10 : 0;
+        //return bonus;
+        System.out.println("bonus = " + bonus);*/
+        int month = 4;
+        String season  ;
+        if (month == 12 || month==1 || month==2)
+           season = "Winter";
+        else season = "Wrong month";
+        System.out.println("season = " + season);
+
+
+        }
+    }
+
+
+
 
        /* int [] a = {12, 23, 1, 3};
         int[] b = new int[5];
@@ -91,10 +137,38 @@ public class Main {
             System.out.println(c[0]);
             break;*/
 
-        int[] a = {2, 45, 9, 1};
-        for (int breack = a.length-1; breack < ; breack++) {
+       /* int[] a = {45, 2, 9, 1};
+        for (int stopper = a.length-1; stopper > 0 ; stopper--) {
+            for (int i = 0; i < stopper ; i++) {
+                if (a[i] > a[i + 1]) {
+                    int temp = a[i];
+                    a[i] = a[i + 1];
+                    a[i + 1] = temp;
+                }
+
+            }
 
         }
+        System.out.println(a[0]);
+        System.out.println(a[1]);
+        System.out.println(a[2]);
+        System.out.println(a[3]);
+*/
+
+       /* int[] b = {4, 5, 6, 7, 8};
+        for (int i = 0; i < b.length/2 ; i++) {
+            int tmp = b[i];
+            b[i] = b[b.length - i - 1];
+            b[b.length - i - 1] = tmp;
+
         }
+        System.out.println(b[0]+","+b[1]+","+b[2]+","+b[3]+","+b[4]);
+*/
+        /*System.out.println(b[1]);
+        System.out.println(b[2]);
+        System.out.println(b[3]);
+        System.out.println(b[4]);*/
+
+  /*  }
     }
-
+*/
