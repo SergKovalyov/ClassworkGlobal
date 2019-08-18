@@ -36,17 +36,45 @@ public class Main {
         bonus = purchaseItem > 3 ? 10 : 0;
         //return bonus;
         System.out.println("bonus = " + bonus);*/
-        int month = 4;
+       /* int month = 4;
         String season  ;
         if (month == 12 || month==1 || month==2)
            season = "Winter";
         else season = "Wrong month";
         System.out.println("season = " + season);
+*/
+       /* int[] data = {3, 1, 99, 8};
+        for (int stoper = data.length-1 ; stoper > 0 ; stoper--) {
+            for (int index = 0; index < stoper ; index++) {
+                if (data[index] > data[index + 1]) {
+                    int temp = data[index];
+                    data[index] = data[index + 1];
+                    data[index + 1] = temp;// присваиваем второй переменной число из временной переменной temp
+                }*/
+/*
+        for (int a = 1, b = 7; a < b; a++, b--) {
+            System.out.println(a);
 
+            }*/
+        int[] a = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+        int sum = 0;
+        for (int x : a) {
+            System.out.println("x = " + x);
+            sum =sum+x;}
+        System.out.println("sum = " + sum);
+        }
+            }
+
+/*
+        System.out.println("data = " + data[0]);
+        System.out.println("data = " + data[1]);
+        System.out.println("data = " + data[2]);
+        System.out.println("data = " + data[3]);
 
         }
     }
 
+*/
 
 
 
